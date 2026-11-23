@@ -56,7 +56,17 @@ const server = http.createServer(function(req, res) {
       res.write(data);
       res.end();
     });
-  }else if (page == '/js/main.js'){
+  }else if (page == '/css/Background.jpg') {
+  fs.readFile('css/Background.jpg', function(err, data) {
+    if (err) {
+      res.writeHead(404);
+      return res.end('Image not found');
+    }
+
+    res.writeHead(200, {'Content-Type': 'image/jpeg'});
+    res.end(data);
+  });
+}else if (page == '/js/main.js'){
     fs.readFile('js/main.js', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/javascript'});
       res.write(data);
