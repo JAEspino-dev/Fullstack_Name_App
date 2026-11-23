@@ -10,14 +10,14 @@ body {
   justify-content: center;
   gap: 12px;
 
-  background-image: url('/css/images.jpeg');
+  background-image: url('images.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 h1 {
-  color: red;
+  color: rgb(24, 67, 52);
   font-weight: 600;
   font-size: 2.5rem;
   margin: 0;
