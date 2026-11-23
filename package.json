@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JAEspino-dev/Fullstack_Name_App/issues"
   },
-  "homepage": "https://github.com/JAEspino-dev/Fullstack_Name_App#readme"
+  "homepage": "https://github.com/JAEspino-dev/Fullstack_Name_App#readme",
+  "dependencies": {
+    "figlet": "^1.13.0"
+  }
 }
