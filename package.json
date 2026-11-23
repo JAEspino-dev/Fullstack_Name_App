@@ -21,5 +21,6 @@
   "homepage": "https://github.com/JAEspino-dev/Fullstack_Name_App#readme",
   "dependencies": {
     "figlet": "^1.13.0"
-  }
+  },
+  "devDependencies": {}
 }

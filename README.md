@@ -14,7 +14,6 @@ Use this program if you want to see the a random name!
 3. Instantly view more information about the name
 
 # ✨ Features
-* Responsive design for desktop and mobile.        
 * Responsive design for desktop and mobile devices.    
 * Interactive user interface.   
 * Client-server communication using the Fetch API.    
